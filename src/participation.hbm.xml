@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+ 
+<hibernate-mapping>
+<class name="student.bean.Participation">
+<id name="id">
+<generator class="increment">
+
+</generator>
+</id>
+
+
+<property name="userid" column="UserId"></property>
+<property name="eventname" column="Event_Name"></property>
+
+</class>
+</hibernate-mapping>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">  
+  
+<hibernate-mapping>
+<class name="org.events.FestEvent" table="Events">
+<id name="id" column="Event_Id">
+<generator class="increment">
+</generator>
+</id>
+<property name="ename" column="E_Name"></property>
+<property name="edescription" column="E_Desc" length="5000"></property>
+<property name="eventdate" column="Event_Date"></property>
+<property name="starttime" column="S_Time"></property>
+<property name="endtime" column="E_Time"></property>
+</class>
+</hibernate-mapping>

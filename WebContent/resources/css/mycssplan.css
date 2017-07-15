@@ -1,0 +1,517 @@
+.input-size{
+	background:green;
+	width:50%;
+}
+
+ 
+ .navbar1{
+ position:fixed;
+ opacity:.8;
+ width:99%;
+ height:100px;
+ font-size:18px;
+ background:radial-gradient(ellipse,red,black);
+ z-index:70;
+ }
+ 
+ ul{
+ 
+ //list-style-image:url(1.jpg);
+ position:absolute;
+ 
+
+ bottom:5px;
+ color:white;
+ right:20px;
+ float:right;
+ }
+ 
+ ul  li{
+ 
+ padding-left:20px;
+ display:inline;
+ }
+ 
+ ul  li a{
+ 
+ color:white;
+ text-decoration:none;
+ }
+ .festname{
+ float:left;
+ color:white;
+ }
+ 
+ @keyframes navanim{
+ 2% {
+ background:radial-gradient(ellipse,green 10%,rgb(150,10,10),black);
+ }
+ 33%{
+ background:radial-gradient(ellipse,rgb(150,10,10),black,red);
+ }
+ 66%{
+ background:radial-gradient(ellipse,black,,rgb(150,10,10));
+ }
+ }
+ 
+ 
+ 
+ 
+ #background{
+ position:fixed;
+ top:0px;
+ left:0px;
+ height:100%;
+ width:100%;
+ background-attachment:fixed;
+ background-size:cover;
+ }
+ 
+ 
+ 
+ .image1{
+ background:url(p1.jpg) no-repeat;
+ height:100%;
+ width:100%;
+ background-attachment:fixed;
+ background-size:cover;
+ }
+ 
+  .image2{
+ background:url(p2.jpg) no-repeat;
+ height:100%;
+ width:100%;
+ background-attachment:scroll;
+ background-size:cover;
+ }
+ 
+  .image3{
+ background:url(images/p4.jpg) no-repeat;
+ height:100%;
+ width:100%;
+ background-attachment:fixed;
+ background-size:cover;
+ }
+ 
+ .image4{
+ background:url(images/p6.jpg) no-repeat;
+ height:100%;
+ width:100%;
+ background-attachment:fixed;
+ background-size:cover;
+ }
+ 
+ .navbar1{
+ margin-top:20px;
+ float:right;
+ overflow:hidden;
+ position:fixed;
+ opacity:.7;
+ width:100%;
+ height:100px;
+ background-color:red;
+  top: 0; 
+  left: 0; 
+z-index:50;
+  /* Preserve aspet ratio */
+  min-width: 100%;
+ z-index:200;
+ }
+ 
+ ul{
+ 
+ //list-style-image:url(1.jpg);
+ position:absolute;
+ 
+ bottom:5px;
+ color:white;
+ right:20px;
+ float:right;
+ }
+ 
+ ul  li{
+ 
+ padding-left:20px;
+ display:inline;
+ }
+ 
+ .festname{
+ float:left;
+ color:white;
+ }
+ .imageback{
+ position:fixed;
+ top:0px;
+ left:0px;
+ opacity:.7;
+ width:100%;
+ height:100%;
+ z-index:10;
+ background:radial-gradient(circle,red,black);
+ }
+ 
+ .imag{
+background:url(images/fshield.jpg) no-repeat;
+ position:fixed;
+ background-attachment:cover;
+ top:20%;
+ left:30%;
+ z-index:10;
+ }
+ .yantragene{
+ position:fixed;
+ background:url(images/yantragene1.gif);
+ background-attachment:cover;
+ margin-top:10px;
+ top:5%;
+ left:15%;
+ z-index:10;
+ }
+ .festdate{
+ position:fixed;
+ color:white;
+ font-size:30px;
+ font-family:algerian;
+ top:470px;
+ left:35%;
+ z-index:10;
+ }
+ 
+ .events{
+ position:absolute;
+ background:url(images/background123.jpg) no-repeat;
+ height:100%;
+ width:100%;
+  top: 0; 
+  left: 0; 
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+ // min-height: 100%;
+ //background-size:cover;
+ color:white;
+ margin-top:700px;
+ z-index:14;
+ background-attachment:scroll;
+// padding-bottom:-10px;
+ //height:800px;
+ }
+ 
+ .eventslink{
+ position:absolute;
+ left:5%;
+ top:90%;
+ margin-bottom:100px;
+ }
+ 
+  .eventdescription{
+  position:absolute;
+  margin-top:100px;
+  margin-left:30%;
+  width:40%;
+  border-radius:6px;
+  font-family:garamond;
+  background:rgba(0,0,0,.5);
+  font-size:22px;
+  height:auto;
+  z-index:50;
+  display:none;
+  padding:25px;
+ }
+ .hide1{
+ display:none;
+ }
+ 
+ .register{
+ display:none;
+ color:yellow;
+ }
+ .register1{
+ color:yellow;
+ margin-left:30%;
+ background:background:url(images/signupback.jpg) no-repeat;
+ }
+ .signupform{
+ font-size:25px;
+ font-family:algerian;
+ margin-left:40%;
+ z-index:20;
+ }
+ 
+ .login{
+ display:none;
+ }
+ 
+ .usernavbar{
+ background:url(images/galaxy.jpg) no-repeat;
+ width:100%;
+ height:100px;
+ overflow:hidden;
+ color:white;
+ }
+ 
+ .usernavba{
+ position:fixed;
+ background:url(images/galaxy.jpg) repeat-x;
+ background-size:50% 100px;
+ width:100%;
+ height:100px;
+ color:white;
+ }
+ .welcome-user{
+ 
+ align:center;
+ margin-left:40%;
+ color:yellow;
+ font-family:algerian;
+ font-size:20px;
+ }
+ 
+ 
+ .usernavbar-link{
+       
+       padding:10px;
+ }
+ .btn-uselink{
+                margin-left:20px;
+         }
+         
+  .content{
+   background:url(images/backgrnd.gif) no-repeat;
+   background-attachment:fixed;
+   width:100%;
+   height:600px;
+    background-size:cover;
+  }
+  .content-move{
+  
+  position:fixed;
+  background-attachment:fixed;
+  margin-top:100px;
+  top:5px;
+  width:400%;
+  height:40%;
+  transform:rotateX(20) rotateY(20) rotateZ(30) ;
+  animation:25s contentimage infinite linear;
+  }
+  
+  
+  
+  
+  @keyframes contentimage{
+  0%{
+  left:0px;
+  }
+  100%{
+  left:-2000px;
+  }
+  }
+  
+  .takepart{
+  position:fixed;
+  top:320px;
+  margin-top:20px;
+  margin-left:20px;
+  width:200px;
+  height:auto;
+  padding:7px;
+  background-color:rgb(20,230,230);
+  border-radius:5px;
+  z-index:10;
+  }
+  
+  .myeventlist{
+  position:fixed;
+  top:100px;
+  border-radius:5px;
+  background-color:rgb(230,230,230);
+  margin-top:20px;
+  margin-left:20px;
+  width:200px;
+  height:auto;
+  padding:7px;
+  z-index:10;
+  }
+  
+  
+  .eventmsg{
+  background:black;
+  opacity:.3;
+  }
+  
+  .registerevent{
+  
+  display:none;
+  }
+  
+  .opaque{
+  opacity:1;
+  z-index:10;
+  }
+  
+  .registerback{
+  position:absolute;
+   background:url(../images/686381.jpg) no-repeat;
+   left:0px;
+   top:0px;
+  height:100%;
+   width:100%;
+   background-attachment:fixed;
+   background-size:cover;
+ 
+  }
+  
+  .registerdata{
+  
+  z-index:20;
+  }
+  
+  #in{
+    z-index:40;
+   background-color:rgba(0,0,0,0);
+   color:white;
+    border:2px yellow solid;
+    box:4px black;
+  }
+  
+  
+  .hidepopup{
+  display:none;
+  
+  }
+  
+  #popup{
+  color:white;
+ position:fixed;
+  width:300px;
+  height:300px;
+  left:40%;
+  top:40%;
+  z-index:100;
+  }
+  
+  .epopup{
+  width:100%;
+  height:100%;
+  background-position:cover;
+  background:red;
+  opacity:.9;
+  z-index:45;
+  }
+  .popupbox{
+  display:none;
+  }
+  .popupbox1{
+  width:100%;
+  height:100%;
+  background-position:cover;
+  background:red;
+  z-index:45;
+  }
+  
+  .loginbackground{
+  background:url(images/lback.jpg) no-repeat;
+ position:absolute;
+  min-height:100%;
+ min-width:100%;
+ background-attachment:fixed;
+ background-size:cover;
+ }
+ 
+ .login1{
+ color:white;
+ position:absolute;
+ left:30%;
+ top:30%;
+ }
+ .loginhead{
+ font-size:30px;
+ color:yellow;
+ font-family:algerian;
+ }
+ .profilecontent{
+ 
+ color:red;
+ font-fmaily:garamond;
+ font-size:20px;
+ position:absolute;
+ top:30%;
+ width:50%;
+ left:40%;
+ z-index:20;
+ }
+ 
+ .popupboxbgrnd{
+ position:absolute;
+ background:rgba(black);
+ z-index:38;
+ opacity:.6;
+ width:100%;
+ height:100%;
+ }
+ .tableback{
+ background:white;
+ border-radius:4px;
+ }
+ 
+ 
+ .contactus{
+ background:url(images/contact.jpg) no-repeat;
+ background-attachment:fixed;
+ background-size:cover;
+ color:yellow;
+ z-index:20;
+  margin-top:-10px; 
+  margin-left:-10px; 
+min-width: 100%;
+  min-height: 100%;
+ 
+}
+
+.unparticipate{
+	
+	display:none;
+}
+
+
+.termcond{
+ background:url(images/termcond.jpg) no-repeat;
+ background-attachment:scroll;
+ background-size:cover;
+ position:fixed;
+ padding:0px;
+ width:100%;
+  /*top: 0; 
+  left: 0; 
+
+  min-width: 100%;
+  min-height: 100%;
+ */
+ color:yellow;
+ z-index:25;
+}
+.einback{
+	
+	background:white;
+}
+.close{
+	background:black;
+	width:20px;
+	height:20px;
+	border-radius:3px;
+	text-shadow:2px blue;
+	
+}
+
+.navlinks{
+	margin-top:20px;
+	float:right;
+	font-size:18px;
+	text-decoration:none;
+}
+
+.cus{
+	position:fixed;
+	margin-top:110px;
+	}
+	
